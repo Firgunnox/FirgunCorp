@@ -168,15 +168,26 @@
                 </div>
                 <div class="work-request--information">
                   <div class="information-name">
-                    <input id="name" type="text" spellcheck="false">
-                    <label for="name">Nom</label>
+                    <input id="name" type="text" spellcheck="false" required>
+                    <label for="name" >Nom</label>
                   </div>
                   <div class="information-email">
-                    <input id="email" type="email" spellcheck="false">
+                    <input id="email" type="email" spellcheck="false" required>
                     <label for="email">Email</label>
                   </div>
                 </div>
-                <input type="submit" value="Envoyer">
+                <div>
+                  <div class="contact-message">
+                    <label>
+                      <span id="message-print">Décrivez-nous votre besoin :</span>
+                      <textarea name="message"></textarea>
+                    </label>
+                    <br>
+                    <br>
+                    <br>
+                    <input type="submit" value="Envoyer">
+                  </div>
+                </div>
               </form>
             </div>
           </li>
